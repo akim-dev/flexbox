@@ -8,6 +8,7 @@
 
 body {
   font-family: quicksand;
+  /* overflow: auto; */
 }
 
 .jumbotron {
@@ -48,6 +49,12 @@ nav a:hover {
   width: 100%;
 }
 
+h1,
+h2,
+h3 {
+  line-height: 5vh;
+}
+
 p {
   text-indent: 2%;
   line-height: normal;
@@ -77,6 +84,7 @@ footer {
   font-weight: 400;
   background-color: aqua;
   margin-top: 20px;
+  font-size: 2vh;
 }
 
 @media screen and (max-width: 1000px) {
