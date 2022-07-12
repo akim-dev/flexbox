@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: quicksand;
+}
+
+.jumbotron {
+  padding: 60px;
+  text-align: center;
+  background-color: aqua;
+  margin: auto;
+}
+
+nav {
+  background-color: aqua;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 400;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  margin-left: 20px;
+  flex-basis: 75%;
+  flex-grow: 2;
+  margin-right: 20px;
+}
+
+.aside {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.profile_penulis {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: aqua;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
